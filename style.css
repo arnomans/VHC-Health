@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-    width: 25%;
+    width: 30%;
     margin-top: 10px;
     margin-left: 15px;
 }
@@ -28,10 +28,38 @@ header {
 }
 
 .menu-icon {
+    width: 40%;
     margin-top: 30px;
-    margin-right:  35px;
+    margin-right:  20px;
 }
 
 .dotsImage1 {
     display: none;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.main-content p {
+    margin-bottom: 50px;
+}
+
+.blue-button {
+    text-decoration: none;
+    color: white;
+    background-color: #458FF6;
+    padding: 1em 2em 1em 2em;
+    border-radius: 50px;
+}
+
+.blue-button:hover {
+    background-color: #79adf7;
+}
+
+.hero-image {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
