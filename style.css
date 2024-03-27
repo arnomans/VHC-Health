@@ -21,6 +21,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-top: -20px;
 }
 
 .menu-list {
@@ -42,16 +43,26 @@ h1 {
     margin-top: 40px;
 }
 
+p {
+    color: #7D7987;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
 .main-content p {
     margin-bottom: 50px;
 }
 
 .blue-button {
+    display: block;
     text-decoration: none;
     color: white;
     background-color: #458FF6;
     padding: 1em 2em 1em 2em;
     border-radius: 50px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    width: 50%;
 }
 
 .blue-button:hover {
@@ -62,4 +73,34 @@ h1 {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 70px;
+}
+
+.h2-centered {
+    text-align: center;
+}
+
+.hr-centered {
+    width: 15%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.background-image {
+    width: 135%;
+    margin-left: -20px;
+    position: absolute;
+    z-index: -1;
+}
+
+.dotsImage2 {
+    display: none;
+}
+
+.service-block {
+    width: 50%;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px 40px 10px 40px;
+    border-radius: 6%;
+    border: 1px solid rgb(228, 226, 226);
 }
