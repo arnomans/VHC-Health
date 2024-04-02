@@ -110,3 +110,22 @@ p {
 .services-icons {
     width: 40%;
 }
+
+.button-position {
+    display: flex;
+    justify-content: center;
+}
+
+.white-button {
+    color: #79adf7;
+    text-decoration: none;
+    border: solid 1px #458FF6;
+    padding: 8px 30px 8px 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.white-button:hover {
+    background-color: #e4efff;
+    border: none;
+}
