@@ -132,6 +132,37 @@ p {
 
 .providers-image {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    margin-bottom: 50px;
+}
+
+.hr-center-aligned {
+    width: 15%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.providers h3 {
+    text-align: center;
+}
+
+.providers p {
+    margin-bottom: 20px;
+}
+
+.mobile-apps h3 {
+    text-align: center;
+}
+
+.mobile-apps p {
+    margin-bottom: 20px;
+}
+
+.mobile-apps-image {
+    width: 100%;
+}
+
+.dots-image3, .dots-image4 {
+    display: none;
 }
