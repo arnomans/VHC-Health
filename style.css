@@ -161,8 +161,40 @@ p {
 
 .mobile-apps-image {
     width: 100%;
+    margin-top: -30px;
 }
 
 .dots-image3, .dots-image4 {
     display: none;
+}
+
+.testimonials {
+    margin-top: 100px;
+    background-color: #67c3f3;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.testimonials hr {
+    border-color: #ffffff;
+}
+
+.avatar {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+blockquote {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
 }
