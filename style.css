@@ -208,10 +208,35 @@ blockquote {
 }
 
 .background-image-2 {
-    width: 60%;
+    width: 80%;
     display: inline-block;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: -50px;
     z-index: -1;
+}
+
+.article-image-1, .article-image-2, .article-image-3 {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.article-image-1 {
+    margin-top: -50px;
+}
+
+.article-box {
+    width: 80%;
+    margin: auto;
+    padding: 0px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+
+.article-box-text {
+    padding: 18px;
+    margin-top: -20px;
 }
