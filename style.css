@@ -246,3 +246,16 @@ blockquote {
     font-size: 0.8em;
     color: #458FF6
 }
+
+.article-button {
+    width: 30%;
+    margin: 30px auto 50px auto;
+}
+
+.dots-image-6 {
+    display: none;
+}
+
+.footer {
+    background-color: #67c3f3;
+}
