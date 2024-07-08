@@ -303,3 +303,7 @@ blockquote {
 .footer-dots {
     display: none;
 }
+
+.footer-ul a:hover {
+    color:#c4dcff;
+}
