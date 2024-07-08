@@ -180,6 +180,10 @@ p {
     border-color: #ffffff;
 }
 
+.testimonials-heading {
+    text-align: center;
+}
+
 .avatar {
     width: 40%;
     display: block;
@@ -201,6 +205,7 @@ blockquote {
 
 .articles h2 {
     margin-top: 100px;
+    text-align: center;
 }
 
 .dots-image5 {
@@ -275,7 +280,6 @@ blockquote {
 
 .footer-links {
     width: 95%;
-    
     display: flex;
     justify-content: space-between;
     text-align: center;
