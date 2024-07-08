@@ -274,10 +274,13 @@ blockquote {
 }
 
 .footer-links {
+    width: 95%;
+    
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-left: -20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-ul {
@@ -285,6 +288,7 @@ blockquote {
     text-align: left;
     line-height: 30px;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .footer-ul a {
