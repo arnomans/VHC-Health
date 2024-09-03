@@ -24,9 +24,14 @@ header {
     margin-top: -20px;
 }
 
-.menu-list {
+.hide-mobile {
     display: none;
 }
+
+.menu-list {
+    
+}
+
 
 .menu-icon {
     width: 40%;
