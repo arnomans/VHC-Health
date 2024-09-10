@@ -8,6 +8,14 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     padding: 20px;
 }
@@ -28,8 +36,17 @@ header {
     display: none;
 }
 
-.menu-list {
-    
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background-color: #2567c4;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    padding-top: 3em;
 }
 
 
