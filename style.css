@@ -38,7 +38,7 @@ header {
 
 nav ul {
     position: fixed;
-    width: 60%;
+    width: 40%;
     top: 0;
     right: 0;
     text-align: left;
@@ -47,6 +47,18 @@ nav ul {
     margin-top: 0;
     padding: 0;
     padding-top: 3em;
+}
+
+.menu-list a {
+    display: block;
+    color: white;
+    line-height: 40px;
+    text-align: center;;
+}
+
+.menu-list a:hover {
+    background-color: #458FF6;
+    
 }
 
 
