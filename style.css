@@ -95,6 +95,7 @@ p {
 
 .main-content p {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .blue-button {
@@ -314,12 +315,15 @@ blockquote {
 .footer-text {
     color: #ffffff;
     text-align: center;
+    margin-top: 30px;
 }
 
 .white-logo {
-    width: 35%;
+    display: block;
+    width: 50%;
     margin-top: 30px;
-    margin-left: 115px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-links {
